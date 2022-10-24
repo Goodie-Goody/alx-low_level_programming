@@ -1,8 +1,3 @@
-/*
- * File: 3-puts.c
- * Auth: Kalu Goodness
- */
-
 #include "main.h"
 
 /**
