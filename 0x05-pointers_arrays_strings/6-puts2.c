@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
  * puts2 - prints one char out of 2 of a string
