@@ -1,18 +1,19 @@
+/*
+ * File: 3-puts.c
+ * Auth: Kalu Goodness
+ */
+
 #include "main.h"
 
 /**
- * _puts - prints a string
- * @str: the string
- * Return: the length of the string
+ * _puts - Prints a string to stdout.
+ * @str: The string to be printed.
  */
 
 void _puts(char *str)
 {
-	int i = 0;
+	while (*str)
+		_putchar(*str++);
 
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_puts(str[i]);
-	}
 	_putchar('\n');
 }
