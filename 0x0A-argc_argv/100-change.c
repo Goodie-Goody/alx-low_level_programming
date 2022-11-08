@@ -39,7 +39,7 @@ int main(int argc, char **argv)
 			if (total == 1)
 				count++;
 		}
-		else
+		}else
 		{
 			printf("Error\n");
 			return (1);
