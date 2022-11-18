@@ -1,6 +1,6 @@
 /*
  * File: 1-print_numbers.c
- * Auth: Kalu 
+ * Auth: Kalu
  */
 
 #include "variadic_functions.h"
